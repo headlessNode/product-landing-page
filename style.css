@@ -168,7 +168,7 @@ a:hover{
 .testimonials{
     margin-top: 80px;
     height: 350px;
-    background-color: #F5B7B1;
+    background-color: #cacfd6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,3 +188,45 @@ a:hover{
     justify-content: flex-end;
 }
 
+.coa-container{
+    background-color: #008080;
+    width: 750px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    
+}
+
+.coa-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.coa-lower-text{
+    font: 15px;
+}
+
+.button-2{
+    border: none;
+    font-size: 15px;;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color:lightblue;
+}
+
+.button-2:hover{
+    background-color: dodgerblue;
+    color: white;  
+}
+
+.button-2:active {
+    background-color: darkblue;
+}
