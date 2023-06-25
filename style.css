@@ -1,13 +1,9 @@
 body{
-    height: 200vh;
+    height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-image: url("./images/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    background-color: whitesmoke;
     font-family: 'Roboto';
 }
 
@@ -172,7 +168,7 @@ a:hover{
 .testimonials{
     margin-top: 80px;
     height: 350px;
-    background-color: #dbd3d8;
+    background-color: #F5B7B1;
     display: flex;
     justify-content: center;
     align-items: center;
