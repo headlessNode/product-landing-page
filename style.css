@@ -230,3 +230,17 @@ a:hover{
 .button-2:active {
     background-color: darkblue;
 }
+
+
+.footer{
+    height: 72px;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    font-size: 18px;
+}
