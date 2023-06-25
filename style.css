@@ -1,11 +1,9 @@
 body{
-    height: 100vh;
+    height: 200vh;
     margin: 0;
     display: flex;
     flex-direction: column;
     background-image: url("./images/background.jpg");
-
-    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,7 +48,7 @@ a:hover{
 
 .product{
     background-image: url("./images/product.jpg");
-    height: 1000px;
+    height:fit-content;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,11 +77,21 @@ a:hover{
     color: #413839;
 }
 
+.hero-tert-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #413839;
+    margin-top: 250px;
+}
+
 .button-container{
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-top:350px;
+    margin-top: 80px;
 }
 
 .shop-button, .learn-more-button{
@@ -119,4 +127,68 @@ a:hover{
     background-color: #014421;
 }
 
+.spec-header{
+
+    font-size: 36px;
+    font-weight: bolder;
+    color: #114B5F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.spec-blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spec-block-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-one, .block-two, .block-three, .block-four{
+    border: 4px solid #464e47;
+    height: 100px;
+    width: 140px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.block-text-one, .block-text-two, .block-text-three, .block-text-four{
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    width: 160px;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.testimonials{
+    margin-top: 80px;
+    height: 350px;
+    background-color: #dbd3d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.testimonials-text{
+    width: 550px;
+    font-size: 36px;
+    font: italic;
+    color: #1F2937;
+}
+
+.customer{
+    width:550px;
+    display: flex;
+    justify-content: flex-end;
+}
 
